@@ -14,13 +14,13 @@ Welcome to your new app.
 <hr>
 <h2 class="text-center">Json Section</h2>
 
-        @if (People == null)
+        @if (JsonPeople == null)
         {
             <h3>Loading ......</h3>
         }
         else
         {
-            @foreach (var person in People)
+            @foreach (var person in JsonPeople)
             {
                 <ul>
             <li><b>@person.Id.   </b>@person.FirstName  @person.Surname</li>
@@ -33,18 +33,52 @@ Welcome to your new app.
 
 <hr>
 
+What is your name Pinky?
+<input type="text" @bind-value="FName" />
+<input type="text" @bind-value="LName" />
+
+
+<button onclick="@(()=>AddSqliteData(FName,LName))" class="btn btn-info">Register New</button>
+
+
+
+
+
 <h2 class="text-center">Sqlite Section</h2>
-xxxx
+
+
+        @if (SqlitePeople == null)
+        {
+            <h3>Loading ......</h3>
+        }
+        else
+        {
+            @foreach (var person in SqlitePeople)
+            {
+                <ul>
+                    <li><b>@person.Id.   </b>@person.FirstName  @person.Surname</li>
+
+                </ul>
+            }
+
+        }
+
+
+
 <hr>
 @code
 {
-    public List<Person> People { get; set; } = new();
+    public string FName { get; set; } = string.Empty;
+    public string LName { get; set; } = string.Empty;
 
+    public List<Person> JsonPeople { get; set; } = new();
+    public List<Person> SqlitePeople { get; set; } = new();
 
     protected override Task OnInitializedAsync()
     {
 
         GetJsonData();
+        GetSqliteData();
 
         return base.OnInitializedAsync();
     }
@@ -52,9 +86,27 @@ xxxx
 
     private async void GetJsonData()
     {
-        People = await jsonService.FetchData();
+        JsonPeople = await jsonService.FetchData();
         StateHasChanged();
     }
 
+
+
+
+
+
+    private async void GetSqliteData()
+    {
+        SqlitePeople =await sqliteService.FetchData();
+        StateHasChanged();
+    }
+
+    private async void AddSqliteData(string fname,string lname)
+    {
+        SqlitePeople =await sqliteService.AddData(fname,lname);
+        FName = string.Empty;
+        LName = string.Empty;
+        StateHasChanged();
+    }
 
 }

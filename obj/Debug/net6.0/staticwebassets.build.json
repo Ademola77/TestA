@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OS1HcJLDXCr+ljGqEEfi/VCd0LgbIyqq5Rj6jHVzWVY=",
+  "Hash": "T6PDEdL7CgID1vc7lu/9Ld/KOUs4ebOGWkZFEtDSvpY=",
   "Source": "Testa",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.1.1-beta-g8a155f5a42\\contentFiles\\any\\net6.0\\wwwroot\\browserCache.js",
+      "SourceId": "Testa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "browserCache.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.1.1-beta-g8a155f5a42\\contentFiles\\any\\net6.0\\wwwroot\\browserCache.js"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.1.1-beta-g8a155f5a42\\staticwebassets\\browserCache.js",
+      "SourceId": "SqliteWasmHelper",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.1.1-beta-g8a155f5a42\\staticwebassets\\",
+      "BasePath": "_content/SqliteWasmHelper",
+      "RelativePath": "browserCache.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.1.1-beta-g8a155f5a42\\staticwebassets\\browserCache.js"
+    },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Testa",
@@ -51,12 +85,12 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.9\\build\\net6.0\\blazor.webassembly.js"
     },
     {
-      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.9.rnz6vdon31.js",
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet..9lgjkej1qn.js",
       "SourceId": "Testa",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.6.0.9.rnz6vdon31.js",
+      "RelativePath": "_framework/dotnet..9lgjkej1qn.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +99,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\wasm\\for-build\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat",
@@ -99,7 +133,24 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\dotnet.wasm"
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\wasm\\for-build\\dotnet.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\e_sqlite3.a",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/e_sqlite3.a",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.0-pre20220318192836\\runtimes\\browser-wasm\\nativeassets\\net6.0\\e_sqlite3.a"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
@@ -289,6 +340,23 @@
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\lib\\net6.0\\Microsoft.CSharp.dll"
     },
     {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Data.Sqlite.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Data.Sqlite.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\lib\\net6.0\\Microsoft.Data.Sqlite.dll"
+    },
+    {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
       "SourceId": "Testa",
       "SourceType": "Computed",
@@ -321,6 +389,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.15\\lib\\net6.0\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.4\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Relational.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Sqlite.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Sqlite.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.4\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Sqlite.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
@@ -474,6 +576,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyModel.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyModel.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -729,6 +848,74 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.batteries_v2.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SQLitePCLRaw.batteries_v2.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.0-pre20220318192836\\lib\\netstandard2.0\\SQLitePCLRaw.batteries_v2.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.core.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SQLitePCLRaw.core.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitepclraw.core\\2.1.0-pre20220318192836\\lib\\netstandard2.0\\SQLitePCLRaw.core.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.provider.e_sqlite3.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SQLitePCLRaw.provider.e_sqlite3.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.0-pre20220318192836\\lib\\net6.0\\SQLitePCLRaw.provider.e_sqlite3.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SqliteWasmHelper.dll",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SqliteWasmHelper.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\.nuget\\packages\\sqlitewasmhelper\\1.1.1-beta-g8a155f5a42\\lib\\net6.0\\SqliteWasmHelper.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -3638,6 +3825,23 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.dll"
     },
     {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\+xjDDiQD.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Sqlite.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Sqlite.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Sqlite.dll"
+    },
+    {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\0AeGO+Hi.gz",
       "SourceId": "Testa",
       "SourceType": "Computed",
@@ -3910,6 +4114,40 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Quic.dll"
     },
     {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\4EROPytd.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet..9lgjkej1qn.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet..9lgjkej1qn.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet..9lgjkej1qn.js"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\4G30Tx2p.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Data.Sqlite.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Data.Sqlite.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Data.Sqlite.dll"
+    },
+    {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\4hqfzeBD.gz",
       "SourceId": "Testa",
       "SourceType": "Computed",
@@ -3925,6 +4163,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\4jYnWimP.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/e_sqlite3.a.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\e_sqlite3.a",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\e_sqlite3.a"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\4q12bkfh.gz",
@@ -4250,23 +4505,6 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.HttpListener.dll"
     },
     {
-      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\88OaI7af.gz",
-      "SourceId": "Testa",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.wasm"
-    },
-    {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\8V8kUQf4.gz",
       "SourceId": "Testa",
       "SourceType": "Computed",
@@ -4333,6 +4571,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Dynamic.Runtime.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\aaSlhoZ+.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\AIpEzi+V.gz",
@@ -4503,6 +4758,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\C+nyPaIP.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SqliteWasmHelper.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SqliteWasmHelper.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SqliteWasmHelper.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\cqOe3ZIh.gz",
@@ -5117,6 +5389,23 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.ReaderWriter.dll"
     },
     {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\IFc9aUJ1.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyModel.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll"
+    },
+    {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\Ii4Umzzk.gz",
       "SourceId": "Testa",
       "SourceType": "Computed",
@@ -5523,6 +5812,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\m69Z8rsh.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SQLitePCLRaw.batteries_v2.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.batteries_v2.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.batteries_v2.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\M6aKG3MV.gz",
@@ -6324,21 +6630,21 @@
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.Linq.dll"
     },
     {
-      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\unlOmRm1.gz",
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\uqOs6wmy.gz",
       "SourceId": "Testa",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.6.0.9.rnz6vdon31.js.gz",
+      "RelativePath": "_framework/SQLitePCLRaw.provider.e_sqlite3.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.9.rnz6vdon31.js",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.provider.e_sqlite3.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.9.rnz6vdon31.js"
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.provider.e_sqlite3.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\uVvk8Dhi.gz",
@@ -6441,6 +6747,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\vQJPENT7.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SQLitePCLRaw.core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SQLitePCLRaw.core.dll"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\vX2zNQnm.gz",
@@ -6713,6 +7036,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\XIKK1+cE.gz",
+      "SourceId": "Testa",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ademo\\source\\repos\\Testa\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.wasm"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\Testa\\obj\\Debug\\net6.0\\build-gz\\XOTTtzRP.gz",
