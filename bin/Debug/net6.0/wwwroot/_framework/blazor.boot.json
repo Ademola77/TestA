@@ -1,5 +1,5 @@
 {
-  "cacheBootResources": true,
+  "cacheBootResources": false,
   "config": [ ],
   "debugBuild": true,
   "entryAssembly": "Testa",
@@ -200,13 +200,13 @@
       "mscorlib.dll": "sha256-MnMyZHtcymf0sLxXeFBbQZVsdNdxT0GXJaa9t3ZdSek=",
       "netstandard.dll": "sha256-+SGdnDhVMiZ9hq0EsYwJ+mcK0odf3bAtXnSKLorGDCs=",
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
-      "Testa.dll": "sha256-VN2II9WqZMiA\/cvpHv5ZVsMjTu1RRhWNAUbVLSVi2Ko="
+      "Testa.dll": "sha256-MQTxIf9B\/1bzSlngDn8peY6\/lnU5SCwznVHVaCIbohw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Testa.pdb": "sha256-RX5yTSaeBJKluuV83AQm4y3Lt2W6NlaxfpwwusMAyxE="
+      "Testa.pdb": "sha256-ctOJ7KwFPhPN044m4FR+RH+s\/tkPTy+VfBgoka3dVH4="
     },
     "runtime": {
       "dotnet.6.0.9.rnz6vdon31.js": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
